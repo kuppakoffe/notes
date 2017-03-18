@@ -35,36 +35,36 @@ e.g.,
 **Theorem:**
 
 > **∀ n ≽ 0 ,  1 + 2 + 3 + ... + n = n(n+1)/2**
-
+>
 >_or_
-
+>
 > **i = 0 to i = n**
-
+>
 > **∑i = n(n+1)/2**
-
+>
 > _proof (by induction):_ 
 > 
-
+>
 > * if n =1 → 1
 > * if n <=0 → 0 
-
+>
 > The above 2 cases are called edge conditionns.
-
+>
 > Let P(n) be the proposition that ∑i = n(n+1)/2
-
+>
 > _Base Case:_ 
 > P(0) ∑i = 0
-
+>
 > _Inductive Step:_
-
+>
 > For n ≽ 0 P(n) => p(n+1) is True
-
+>
 > Assume P(n) is True for purposes of induction (i.e., assume 1 + 2 + 3 + .. + n = n(n+1)/2).
-
+>
 > Need to show 1 + 2 + .. + n + (n+1) = (n+1)(n+2)/2
-
+>
 > ⇢ n(n+1)/2 + (n+1)
-
+>
 > ⇢ (n² +n +2n +2)/2 = (n+1)(n+2)/2 ✓
 
 **Theorem:**
